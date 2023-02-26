@@ -12,4 +12,10 @@ Do It Yourself Filament Spool Scale which is integrated into the filament holder
 - Powered by Arduino Nano
 - Compatible with stock Ender 3 spool holder (more comming)
 
+![alt text](https://github.com/KubiV/FilamentSpoolScale/blob/main/Images/render2.png)
 
+![alt text](https://github.com/KubiV/FilamentSpoolScale/blob/main/Images/render4.PNG)
+
+![alt text](https://github.com/KubiV/FilamentSpoolScale/blob/main/Images/crosssection1.png)
+
+![alt text](https://github.com/KubiV/FilamentSpoolScale/blob/main/Images/breadboard.jpg)
