@@ -12,7 +12,6 @@ PinButton myButton(2);
 HX711_ADC LoadCell(4, 5); // dt pin, sck pin
 
 U8GLIB_SSD1306_128X32 u8g(U8G_I2C_OPT_NONE);
-String drawing = "0";
 
 void drawMass(String input) //draws mass readings on OLED
 {
