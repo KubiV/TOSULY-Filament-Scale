@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+  (lib (name "Panelisation")(type "KiCad")(uri "/Users/jakubvavra/Documents/KiCad/6.0/footprints/Panelization.pretty")(options "")(descr ""))
+)
