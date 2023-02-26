@@ -7,6 +7,7 @@ Do It Yourself Filament Spool Scale which is integrated into the filament holder
 
 - Open-source
 - Custom PCB
+- By double-clicking buttun subtract spool dry mass
 - OLED 0.91 inch display
 - Buttons (one under the display so it clicks when you push the display)
 - Powered by Arduino Nano
