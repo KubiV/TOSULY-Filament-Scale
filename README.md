@@ -6,9 +6,9 @@ Do It Yourself Filament Spool Scale which is integrated into the filament holder
 ## Features
 
 - Open-source
-- DIY
+- Custom PCB
 - OLED 0.91 inch display
-- buttons (one under the display so it clicks when you push the display)
+- Buttons (one under the display so it clicks when you push the display)
 - Powered by Arduino Nano
 - Compatible with stock Ender 3 spool holder (more comming)
 
