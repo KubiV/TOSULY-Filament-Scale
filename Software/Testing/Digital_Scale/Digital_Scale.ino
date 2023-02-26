@@ -1,4 +1,3 @@
-//Arduino Digital Weight Scale HX711 Load Cell Module
 #include <HX711_ADC.h> // https://github.com/olkal/HX711_ADC
 #include <PinButton.h> //https://github.com/poelstra/arduino-multi-button/
 

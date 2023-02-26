@@ -1,4 +1,4 @@
-#include <U8glib.h>  // U8glib library
+#include <U8glib.h>  //https://github.com/olikraus/u8glib
 
 U8GLIB_SSD1306_128X32 u8g(U8G_I2C_OPT_NONE);
 
