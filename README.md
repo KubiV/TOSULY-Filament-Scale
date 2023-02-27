@@ -17,7 +17,7 @@ Do It Yourself Filament Spool Scale which is integrated into the filament holder
 
 ![alt text](https://github.com/KubiV/FilamentSpoolScale/blob/main/Images/render4.PNG)
 
-##Needed:
+## Needed
 
 - 4x M3 screws (15mm for mounting PCBs)
 - 2x M3 nuts (rectangle PCB mounting)
