@@ -20,3 +20,11 @@ Do It Yourself Filament Spool Scale which is integrated into the filament holder
 ![alt text](https://github.com/KubiV/FilamentSpoolScale/blob/main/Images/crosssection1.png)
 
 ![alt text](https://github.com/KubiV/FilamentSpoolScale/blob/main/Images/breadboard.jpg)
+
+## Load cell
+
+Compatible with both load cell designs - 12.7 x 12.7 x 75mm (type 1) or 12.7 x 12.7 x 80mm (type 2), holes for M4 bolts and two holes for M5 holes (type 2).
+
+## 3D Printable parts
+
+Mounting screw has 24 mm i diameter with according thread.
