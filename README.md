@@ -17,6 +17,22 @@ Do It Yourself Filament Spool Scale which is integrated into the filament holder
 
 ![alt text](https://github.com/KubiV/FilamentSpoolScale/blob/main/Images/render4.PNG)
 
+##Needed:
+
+- 4x M3 screws (15mm for mounting PCBs)
+- 2x M3 nuts (rectangle PCB mounting)
+- 4x M4 screws (approx. 10 mm)
+- Custom PCB
+- 6x1 horizontal pin header 2.54 mm pitch
+- Arduino Nano
+- USB cable (according on Arduino Nano variant)
+- Load Cell 5 kg
+- HX711 AD Module Weight Sensor
+- 0.91 Inch OLED Module I2C
+- 2x buttons 6 mm
+- 1 resistor axial
+- 3D printed parts (Upper, Body, Nut, Cover)
+
 ![alt text](https://github.com/KubiV/FilamentSpoolScale/blob/main/Images/crosssection1.png)
 
 ![alt text](https://github.com/KubiV/FilamentSpoolScale/blob/main/Images/breadboard.jpg)
