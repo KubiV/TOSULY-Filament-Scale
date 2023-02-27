@@ -7,11 +7,11 @@ Do It Yourself Filament Spool Scale which is integrated into the filament holder
 
 - Open-source
 - Custom PCB
-- By double-clicking buttun subtract spool dry mass
 - OLED 0.91 inch display
 - Buttons (one under the display so it clicks when you push the display)
+- By double-clicking button subtract spool dry mass
 - Powered by Arduino Nano
-- Compatible with stock Ender 3 spool holder (more comming)
+- Compatible with stock Ender 3 spool holder, Prusa Original frame
 
 ![alt text](https://github.com/KubiV/FilamentSpoolScale/blob/main/Images/render2.png)
 
