@@ -26,6 +26,7 @@ Do It Yourself Filament Spool Scale which is integrated into the filament holder
 - 6x1 horizontal pin header 2.54 mm pitch
 - Arduino Nano
 - USB cable (according on Arduino Nano variant)
+- A DC-DC step-down converter and USB port for connecting the USB cable
 - Load Cell 5 kg
 - HX711 AD Module Weight Sensor
 - 0.91 Inch OLED Module I2C
