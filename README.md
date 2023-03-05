@@ -45,3 +45,6 @@ Compatible with both load cell designs - 12.7 x 12.7 x 75mm (type 1) or 12.7 x 1
 ## 3D Printable parts
 
 Mounting screw has 24 mm i diameter with according thread.
+
+
+V02 design inspired by https://youtu.be/WO-hR7okl3k
