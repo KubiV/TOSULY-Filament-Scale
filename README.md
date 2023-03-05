@@ -1,5 +1,5 @@
 # TOSULY ALFA (V0.1)
-## _DIY Filament Spool Scale integrated into filament holder_
+## _DIY Filament scale integrated into filament holder_
 
 Do It Yourself Filament Spool Scale which is integrated into the filament holder so you can easily monitor your remaining filament. By default it is not using batteries so you can hook it up straight to the printer/power suply. Optionaly you can add battery by soldering extension wires to prepared pads and than attach battery. 
 
