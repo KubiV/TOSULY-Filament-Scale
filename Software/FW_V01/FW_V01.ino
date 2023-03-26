@@ -9,9 +9,11 @@
 float j = 0;
 
 PinButton myButton(2);
-HX711_ADC LoadCell(4, 5); // dt pin, sck pin
+//HX711_ADC LoadCell(4, 5); // dt pin, sck pin
+HX711_ADC LoadCell(2, 3); // dt pin, sck pin
 
-U8GLIB_SSD1306_128X32 u8g(U8G_I2C_OPT_NONE);
+//U8GLIB_SSD1306_128X32 u8g(U8G_I2C_OPT_NONE);
+U8GLIB_SH1106_128X64 u8g(U8G_I2C_OPT_DEV_0|U8G_I2C_OPT_FAST);  // Dev 0, Fast I2C / TWI
 
 void drawMass(String input) //draws mass readings on OLED
 {
