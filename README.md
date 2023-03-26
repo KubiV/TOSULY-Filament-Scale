@@ -7,7 +7,7 @@ Do It Yourself Filament Spool Scale which is integrated into the filament holder
 
 - Open-source
 - Custom PCB
-- OLED 0.91 inch display
+- OLED 0.96 inch display
 - Buttons (one under the display so it clicks when you push the display)
 - By double-clicking button subtract spool dry mass
 - Powered by Arduino Nano
@@ -21,17 +21,17 @@ Do It Yourself Filament Spool Scale which is integrated into the filament holder
 
 - 4x M3 screws (15mm for mounting PCBs)
 - 2x M3 nuts (rectangle PCB mounting)
-- 4x M4 screws (approx. 10 mm)
+- 4x M4 screws (approx. 10 mm, and 2 with flat head)
 - Custom PCB
-- 6x1 horizontal pin header 2.54 mm pitch
+- 7x1 horizontal pin header 2.54 mm pitch
 - Arduino Nano
 - USB cable (according on Arduino Nano variant)
 - A DC-DC step-down converter and USB port for connecting the USB cable
 - Load Cell 5 kg
 - HX711 AD Module Weight Sensor
-- 0.91 Inch OLED Module I2C
-- 2x buttons 6 mm
-- 1 resistor axial
+- 0.96 Inch OLED Module I2C
+- 3x buttons 6 mm
+- 3 resistor axial
 - 3D printed parts (Upper, Body, Nut, Cover)
 
 ![alt text](https://github.com/KubiV/FilamentSpoolScale/blob/main/Images/crosssection1.png)
