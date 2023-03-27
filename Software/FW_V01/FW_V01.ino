@@ -8,15 +8,17 @@
 
 float j = 0;
 
-PinButton myButton(2);
+PinButton EnterButtonPin(6);  // Pin for ENTER button
+PinButton RightButtonPin(5);  // Pin for RIGHT button
+
 //HX711_ADC LoadCell(4, 5); // dt pin, sck pin
 HX711_ADC LoadCell(2, 3); // dt pin, sck pin
 
 //U8GLIB_SSD1306_128X32 u8g(U8G_I2C_OPT_NONE);
-U8GLIB_SH1106_128X64 u8g(U8G_I2C_OPT_DEV_0|U8G_I2C_OPT_FAST);  // Dev 0, Fast I2C / TWI
+U8GLIB_SSD1306_128X64 u8g(U8G_I2C_OPT_NONE|U8G_I2C_OPT_DEV_0);  // Dev 0, Fast I2C / TWI
 
 void drawMass(String input) //draws mass readings on OLED
-{
+{  
    u8g.setFont(u8g_font_fub17r);   // select font
    u8g.setPrintPos(0, 20);
    u8g.print(input); 
@@ -37,11 +39,13 @@ void setup() {
 
 void loop() {
 
-  myButton.update();
+  EnterButtonPin.update();
+  RightButtonPin.update();
+  
   LoadCell.update(); // retrieves data from the load cell
-  float i = LoadCell.getData(); // get output value from the load cell
+  float i = -LoadCell.getData(); // get output value from the load cell, the minus sign may be removed depending on your loadcell placement
 
-  if (myButton.isDoubleClick()) { //subtracts defined spool mass
+  if (RightButtonPin.isClick()) { //subtracts defined spool mass
     Serial.println("/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
     j = -SpoolMass;
   } 
@@ -55,7 +59,7 @@ void loop() {
     delay(200);
   }
   
-  if (myButton.isSingleClick()) { // taring information
+  if (EnterButtonPin.isClick()) { // taring information
     Serial.println("Taring");
     j = 0;
     LoadCell.start(2000);

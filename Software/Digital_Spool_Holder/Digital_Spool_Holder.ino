@@ -128,7 +128,7 @@ const byte RightButtonPin = 5;  // Pin for RIGHT button
 #include "U8glib.h"  // Include U8glib library for the display
 
 // Create display and set pins:
-U8GLIB_SH1106_128X64 u8g(U8G_I2C_OPT_DEV_0|U8G_I2C_OPT_FAST);  // Dev 0, Fast I2C / TWI
+U8GLIB_SSD1306_128X64 u8g(U8G_I2C_OPT_NONE|U8G_I2C_OPT_DEV_0);  // Dev 0, Fast I2C / TWI
 
 
 #include "HX711.h"  // Include HX711 library for the load cell
